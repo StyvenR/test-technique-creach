@@ -32,7 +32,7 @@ export default function TestTechnique() {
   };
 
   return (
-    <div className="flex h-screen w-full items-center justify-center bg-gray-100">
+    <div className="flex p-4 w-full items-center justify-center bg-gray-100">
       <div className="flex flex-col items-center gap-6 rounded-lg bg-white p-8 shadow-lg">
         <h1 className="text-2xl font-bold text-gray-800">{formData.title}</h1>
         <p className="text-gray-600">{formData.description}</p>
